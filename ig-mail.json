@@ -1,0 +1,20 @@
+{
+    "parts": [
+        {
+            "is_public": true,
+            "regex_def": "[a-zA-Z0-9-._]+&#064;[a-zA-Z0-9-.]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": "(\n|.)+for (=\n)?"
+        },
+        {
+            "is_public": true,
+            "regex_def": "[a-zA-Z._]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": "\\."
+        }
+    ]
+}

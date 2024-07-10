@@ -1,0 +1,32 @@
+{
+    "parts": [
+        {
+            "is_public": false,
+            "regex_def": "body_email\">"
+        },
+        {
+            "is_public": true,
+            "regex_def": "[a-zA-Z0-9\\-\\.\\_]+&#064;([a-zA-Z0-9\\-\\.\\_]+\\.)+[a-zA-Z0-9\\-\\_]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": ".+ This message was sent to <a style=3D\"color:#abadae;text-decoration:underline;\">"
+        },
+        {
+            "is_public": true,
+            "regex_def": "[a-zA-Z0-9\\-\\.\\_]+&#064;([a-zA-Z0-9\\-\\.\\_]+\\.)+[a-zA-Z0-9\\-\\_]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": "</a> and intended for"
+        },
+        {
+            "is_public": true,
+            "regex_def": "[a-zA-Z\\.\\_]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": ".+"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+*.r1cs
+*.wtns
+*.zkey
+*.sym
+ig-verifier_js
+ig-verifier_cpp
+mail.eml
